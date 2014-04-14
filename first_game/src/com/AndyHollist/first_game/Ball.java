@@ -29,6 +29,10 @@ public class Ball {
 		col = c;
 		alive = a;
 	}
+	
+	public void kill() {
+		alive = false;
+	}
 }
 
 
